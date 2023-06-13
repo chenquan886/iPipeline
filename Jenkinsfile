@@ -35,6 +35,7 @@ pipeline {
         stage('running2') {
           steps {
             sh 'echo "This is running 2"'
+            sh 'echo "this is runinng2"'
           }
         }
 
