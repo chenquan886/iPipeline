@@ -32,7 +32,7 @@ pipeline {
           }
         }
 
-        stage('running 2') {
+        stage('running2') {
           steps {
             sh 'echo "This is running 2"'
           }
